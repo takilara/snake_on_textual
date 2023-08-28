@@ -1,0 +1,46 @@
+Screen {
+    layout: vertical;
+    padding: 1 2;
+}
+
+StatusWindow {
+    layout: vertical;
+    dock: right;
+    background: $boost;
+    width: 20;
+    margin: 1;
+    padding: 1;
+    border: $secondary tall;
+}
+
+/* PlayArea {
+    height: 1fr;
+    border: solid green;
+    layout: grid;
+    grid-size: 5 5;
+    /* grid-gutter: 1; */
+    /* outline: solid red; */
+    
+
+
+Log {
+    background: $boost;
+    width: 3fr;
+    margin: 1;
+    padding: 1;
+    border: $secondary tall; 
+}
+
+
+GridCell {
+    /* border: solid red; */
+    border: none;
+    height: 1fr;
+    width: 1fr;
+}
+
+ElapsedTime {
+    content-align: center middle;
+    text-opacity: 60%;
+    height: 3;
+}
